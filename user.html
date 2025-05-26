@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <a href="index.html">back to main page</a>
+    <h1>Put your name</h1>
+    <label for="fname">Name:</label>
+    <input type="text" name="fname" id="fname"><br><br>
+    <h1>Put your password</h1>
+    <label for="pass">Password:</label>
+    <input type="password" name="pass" id="pass"><br><br>
+    <input type="submit" onclick="myFunction()">
+
+    <p id="demo"></p>
+
+    <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Success!";
+}
+</script>
+</body>
+</html>
