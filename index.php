@@ -59,6 +59,8 @@
         </style>
     </head>
     <body>
+        <a href="index.html">kembali halaman</a>
+        <a href="page1.html">page1</a>
         <div class="container">
             <div class="content">
                 <div class="title" title="Laragon">Laragon</div>
